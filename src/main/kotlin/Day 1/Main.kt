@@ -3,8 +3,8 @@ package `Day 1`
 import java.io.File
 
 fun main(){
-    var sum = mutableListOf<Int>()
-    var calories = mutableListOf<Int>()
+    val sum = mutableListOf<Int>()
+    val calories = mutableListOf<Int>()
     File("src/main/kotlin/Day 1/inputPart1.txt").forEachLine {
         if (it != ""){
             calories.add(it.toInt())
